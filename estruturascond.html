@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variáveis e Tipos de Dados - Curso Python Iniciante</title>
+    <link rel="stylesheet" href="stylespy.css">
+</head>
+<body>
+    <header>
+        <img src="imagens/logo-jovem-tech.png" alt="">
+        <h1>Jovem Tech - Variáveis e Tipos de Dados</h1>
+        <nav>
+            <ul>
+                <li><a href="PythonConteudos.html">Voltar para o curso</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Estudo das Estruturas Condicionais em Python</h2>
+            <p>As estruturas condicionais em Python permitem que o programa execute diferentes blocos de código dependendo de condições específicas. Neste módulo, você aprenderá a usar as estruturas **`if`**, **`elif`** e **`else`** para tomar decisões no seu código.</p>
+            
+            <h3>Passo 1: O que são Estruturas Condicionais?</h3>
+            <p>As **estruturas condicionais** verificam uma condição e, dependendo do resultado (verdadeiro ou falso), executam um bloco de código ou outro. As principais estruturas condicionais são **`if`**, **`elif`** e **`else`**.</p>
+            
+            <h3>Passo 2: Estrutura básica do `if`</h3>
+            <p>A estrutura **`if`** é a mais simples das estruturas condicionais. Ela verifica uma condição e executa o código se a condição for **verdadeira**.</p>
+            <p><strong>Exemplo:</strong></p>
+            <pre><code>idade = 20
+        if idade >= 18:
+            print("Você é maior de idade.")</code></pre>
+            <p>Neste exemplo, o código dentro do **`if`** só será executado se a variável <code>idade</code> for maior ou igual a 18.</p>
+        
+            <h3>Passo 3: Adicionando a estrutura `else`</h3>
+            <p>A estrutura **`else`** é usada para especificar o que fazer **quando a condição do `if` for falsa**. Ou seja, se a condição do **`if`** não for atendida, o código dentro do **`else`** será executado.</p>
+            <p><strong>Exemplo:</strong></p>
+            <pre><code>idade = 16
+        if idade >= 18:
+            print("Você é maior de idade.")
+        else:
+            print("Você é menor de idade.")</code></pre>
+            <p>Aqui, se a idade for menor que 18, o código dentro do **`else`** será executado, mostrando "Você é menor de idade".</p>
+            
+            <h3>Passo 4: Usando o `elif` para múltiplas condições</h3>
+            <p>O **`elif`** (else if) permite que você verifique várias condições em sequência. Se a condição do **`if`** for falsa, o Python verificará as condições do **`elif`**. Se alguma dessas condições for verdadeira, o código correspondente será executado. Caso contrário, o **`else`** será executado.</p>
+            <p><strong>Exemplo:</strong></p>
+            <pre><code>idade = 25
+        if idade < 18:
+            print("Você é menor de idade.")
+        elif idade < 60:
+            print("Você é adulto.")
+        else:
+            print("Você é idoso.")</code></pre>
+            <p>Neste exemplo, a condição **`if`** é verificada primeiro. Se for falsa, o **`elif`** é checado. Se todas as condições forem falsas, o código dentro do **`else`** é executado.</p>
+        
+            <h3>Passo 5: Combinando múltiplas condições com `and` e `or`</h3>
+            <p>Você pode combinar várias condições usando os operadores lógicos **`and`** (e) e **`or`** (ou).</p>
+            <p><strong>Exemplo com `and`:</strong></p>
+            <pre><code>idade = 20
+        tem_cnh = True
+        if idade >= 18 and tem_cnh:
+            print("Você pode dirigir.")</code></pre>
+            <p>A condição dentro do **`if`** só será verdadeira se **ambas as condições** forem verdadeiras.</p>
+            <p><strong>Exemplo com `or`:</strong></p>
+            <pre><code>idade = 16
+        tem_permicao = True
+        if idade >= 18 or tem_permicao:
+            print("Você pode entrar na festa.")</code></pre>
+            <p>A condição será verdadeira se **uma das condições** for verdadeira.</p>
+        
+            <h3>Passo 6: Objetivos deste Módulo</h3>
+            <p>Ao final deste módulo, você será capaz de:</p>
+            <ul>
+                <li>Compreender e utilizar as estruturas condicionais <strong>if</strong>, <strong>elif</strong> e <strong>else</strong> para tomar decisões em seu código.</li>
+                <li>Utilizar operadores lógicos como <strong>and</strong> e <strong>or</strong> para combinar múltiplas condições.</li>
+                <li>Organizar o fluxo do seu programa de forma eficiente, utilizando condições aninhadas e múltiplas verificações.</li>
+            </ul>
+            <p>Agora, você está pronto para começar a aplicar essas estruturas em seus projetos Python e criar programas mais interativos e dinâmicos!</p>
+        </section>
+        
+        
+        
+
+        <section class="institution-section">
+            <h2>Instituição Responsável</h2>
+            <img src="imagens/instituicao-imagem.png" alt="Imagem da Instituição">
+        </section>
+    </main>
+
+    
+</body>
+</html>
