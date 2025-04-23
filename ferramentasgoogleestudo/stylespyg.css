@@ -1,0 +1,258 @@
+/* styles.css */
+
+/* Resetando margens e preenchimento */
+* {
+    margin: 0;
+    box-sizing: border-box; /* Altere para 'border-box' para um melhor comportamento */
+}
+
+/* Estilo básico para o corpo e fonte */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos do header com gradiente */
+header {
+    background: linear-gradient(90deg, #de514d, #ec834d); /* Gradiente */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos da navegação */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Estilo das seções do curso */
+.main {
+    background-color: #f9f9f9;
+    padding: 50px; /* Adicionado o padding */
+    margin: 100px auto; /* Ajuste para centralizar */
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main h3 {
+    font-size: 1.5em;
+    color: #184e1b;
+    margin-bottom: 15px;
+}
+
+.main ul {
+    list-style: none;
+}
+
+.main li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    transition: transform 0.2s;
+}
+
+.main li:hover {
+    transform: translateX(5px);
+}
+
+.main a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.main a:hover {
+    color: #9edba1;
+    text-decoration: underline;
+}
+
+/* Estilos para o header, parágrafos e links em seções */
+section h2 {
+    padding: 20px;
+    color: #184e1b;  /* Cor verde */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+section h3 {
+    padding: 20px;
+    color: #184e1b;  /* Cor verde */
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+section p {
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Estilo para os links dentro de .links */
+.links {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.links h3 {
+    font-size: 1.5em;
+    color: #184e1b;
+    margin-bottom: 15px;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    transition: transform 0.2s;
+}
+
+.links li:hover {
+    transform: translateX(5px);
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #9edba1;
+    text-decoration: underline;
+}
+
+/* Estilo para o código */
+section pre {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section code {
+    color: #f15a29;  /* Cor laranja */
+    font-weight: bold;
+}
+
+/* Estilo para os links */
+section a {
+    display: inline-block;
+    background-color: #f15a29;  /* Cor laranja */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+section a:hover {
+    background-color: #e14d1f;  /* Cor laranja mais escuro para hover */
+}
+
+/* Estilo para o botão do YouTube */
+.video-btn a {
+    display: inline-block;
+    background-color: #fa0c0c;  /* Cor laranja */
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.video-btn a:hover {
+    background-color: #8f2505;  /* Cor laranja mais escuro para hover */
+}
+
+
+/* Estilo para o vídeo */
+video {
+    width: 100%; /* Faz o vídeo ocupar toda a largura disponível */
+    height: auto; /* Mantém a proporção do vídeo */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para o vídeo */
+}
+
+iframe {
+    width: 100%;
+    height: 315px; /* Tamanho padrão do vídeo */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsividade para telas grandes (desktops) */
+@media(min-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-right: 30px;
+    }
+
+    section {
+        margin: 30px 0;
+        padding: 30px;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+    }
+}
